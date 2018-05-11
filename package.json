@@ -1,0 +1,32 @@
+{
+  "name": "create-ali-app",
+  "version": "1.0.0",
+  "description": "A simple CLI for scaffolding Alipay miniapp projects.",
+  "bin": {
+    "create-ali-app": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinconan/create-ali-app.git"
+  },
+  "keywords": [
+    "cli",
+    "miniapp"
+  ],
+  "author": "xinconan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xinconan/create-ali-app/issues"
+  },
+  "homepage": "https://github.com/xinconan/create-ali-app#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "download-git-repo": "^1.0.2",
+    "inquirer": "^5.2.0",
+    "ora": "^2.1.0"
+  }
+}
